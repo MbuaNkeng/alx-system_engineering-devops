@@ -1,2 +1,1 @@
-0 string HOLBERTON Holberton data
-I:mime Holberton
+echo "0 string SCHOOL" > school.mgc
