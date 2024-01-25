@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+
+FILENAME="/etc/passwd"
+
+while IFS=: read -r username password userid groupid comment homedir cmdshell
+do
+    echo "$username"
+    echo "$userid"
+    echo "$homedir"
+done < "$FILENAME"
